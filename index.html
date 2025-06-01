@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google IT Cert Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <div class="wrapper">
+    <header class="header">
+      <h1>👾 Google IT Cert Tracker: Cyber Edition</h1>
+      <p>Welcome, <strong>Techno-Goblin</strong>! Track your path to IT glory below:</p>
+    </header>
+
+    <nav class="navigation">
+      <button class="hvr-buzz" onclick="scrollToModule('module1')">Module 1</button>
+      <button class="hvr-buzz" onclick="scrollToModule('module2')">Module 2</button>
+      <button class="hvr-buzz" onclick="scrollToModule('module3')">Module 3</button>
+      <button class="hvr-buzz" onclick="scrollToModule('module4')">Module 4</button>
+      <button class="hvr-buzz" onclick="scrollToModule('module5')">Module 5</button>
+      <button class="hvr-buzz" onclick="scrollToModule('module6')">Module 6</button>
+      <a href="dashboard.html" class="hvr-glow">Dashboard</a>
+      <a href="resources.html" class="hvr-glow">Resources</a>
+    </nav>
+
+    <main class="content">
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="overallProgress"></div>
+      </div>
+
+      <!-- BEGIN MODULE SECTION -->
+       <!-- MODULES -->
+    <section class="module" id="module1">
+      <h2>Module 1: Technical Support Fundamentals</h2>
+      <ul>
+        <li><input type="checkbox" class="tracker-checkbox" /> Introduction to IT</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Hardware</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Operating Systems</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Networking</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Software</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Troubleshooting</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Module Assessment Test</li>
+      </ul>
+      <div class="progress-bar-container alt-color">
+        <div class="progress-bar" id="module1Progress"></div>
+      </div>
+      <div class="badge-display" id="module1Badge" style="display:none;">
+        <p>✅ Module Complete: Badge Unlocked</p>
+        <img src="badges/module1.png" alt="Module 1 Badge" class="responsive-badge" />
+      </div>
+    </section>
+
+    <section class="module" id="module2">
+      <h2>Module 2: The Bits and Bytes of Computer Networking</h2>
+      <ul>
+        <li><input type="checkbox" class="tracker-checkbox" /> Introduction to Networking</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> The Network Layer</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> The Transport and Application Layers</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Networking Services</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Connecting to the Internet</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Troubleshooting and the Future of Networking</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Module Assessment Test</li>
+      </ul>
+      <div class="progress-bar-container alt-color">
+        <div class="progress-bar" id="module2Progress"></div>
+      </div>
+      <div class="badge-display" id="module2Badge" style="display:none;">
+        <p>✅ Module Complete: Badge Unlocked</p>
+        <img src="badges/module2.png" alt="Module 2 Badge" class="responsive-badge" />
+      </div>
+    </section>
+
+    <section class="module" id="module3">
+      <h2>Module 3: Operating Systems and You: Becoming a Power User</h2>
+      <ul>
+        <li><input type="checkbox" class="tracker-checkbox" /> Navigating the System</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Users and Permissions</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Package and Software Management</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Filesystems</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Process Management</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Operating System Troubleshooting</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Module Assessment Test</li>
+      </ul>
+      <div class="progress-bar-container alt-color">
+        <div class="progress-bar" id="module3Progress"></div>
+      </div>
+      <div class="badge-display" id="module3Badge" style="display:none;">
+        <p>✅ Module Complete: Badge Unlocked</p>
+        <img src="badges/module3.png" alt="Module 3 Badge" class="responsive-badge" />
+      </div>
+    </section>
+
+    <section class="module" id="module4">
+      <h2>Module 4: System Administration and IT Infrastructure Services</h2>
+      <ul>
+        <li><input type="checkbox" class="tracker-checkbox" /> What is System Administration?</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Network and Infrastructure Services</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Software and Platform Services</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Directory Services</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Data Recovery and Backups</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Final Project</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Module Assessment Test</li>
+      </ul>
+      <div class="progress-bar-container alt-color">
+        <div class="progress-bar" id="module4Progress"></div>
+      </div>
+      <div class="badge-display" id="module4Badge" style="display:none;">
+        <p>✅ Module Complete: Badge Unlocked</p>
+        <img src="badges/module4.png" alt="Module 4 Badge" class="responsive-badge" />
+      </div>
+    </section>
+
+    <section class="module" id="module5">
+      <h2>Module 5: IT Security: Defense Against the Digital Dark Arts</h2>
+      <ul>
+        <li><input type="checkbox" class="tracker-checkbox" /> Understanding Security Threats</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Cryptography</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Security Best Practices</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Securing Networks</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Defense in Depth</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Creating a Security Culture</li>
+        <li><input type="checkbox" class="tracker-checkbox" /> Module Assessment Test</li>
+      </ul>
+      <div class="progress-bar-container alt-color">
+        <div class="progress-bar" id="module5Progress"></div>
+      </div>
+      <div class="badge-display" id="module5Badge" style="display:none;">
+        <p>✅ Module Complete: Badge Unlocked</p>
+        <img src="badges/module5.png" alt="Module 5 Badge" class="responsive-badge" />
+      </div>
+    </section>
+
+  <section class="module" id="module6">
+    <h2>Module 6: Troubleshooting and Support</h2>
+    <ul>
+      <li><input type="checkbox" class="tracker-checkbox" /> Understanding Customer Needs</li>
+      <li><input type="checkbox" class="tracker-checkbox" /> Effective Communication</li>
+      <li><input type="checkbox" class="tracker-checkbox" /> Documentation and Ticketing Systems</li>
+      <li><input type="checkbox" class="tracker-checkbox" /> Problem Solving Methodologies</li>
+      <li><input type="checkbox" class="tracker-checkbox" /> Debugging Practice</li>
+      <li><input type="checkbox" class="tracker-checkbox" /> Escalation Procedures</li>
+      <li><input type="checkbox" class="tracker-checkbox" /> Module Assessment Test</li>
+    </ul>
+    <div class="progress-bar-container alt-color">
+      <div class="progress-bar" id="module6Progress"></div>
+    </div>
+    <div class="badge-display" id="module6Badge" style="display:none;">
+      <p>✅ Module Complete: Badge Unlocked</p>
+      <img src="badges/module6.png" alt="Module 6 Badge" class="responsive-badge" class="responsive-badge" />
+    </div>
+  </section> 
+</div> 
+      <!-- END MODULE SECTION -->
+
+      <div class="badge-display" id="certCompleteBadge" style="display:none; text-align:center; margin-top: 2rem;">
+        <h2>🎉 Certificate Complete! 🎉</h2>
+        <p><em>"Have you tried whispering sweet nothings to the router? It works better when you mean it."</em></p>
+        <img src="badges/certificate-complete.png" alt="Certificate Completion Badge" class="responsive-badge" />
+        <canvas id="confettiCanvas"></canvas>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>Made with 💻 and a dash of goblin magic.</p>
+    <div class="background-toggle">
+      <select id="bgSelect" onchange="switchBackground(this.value)">
+        <option value="particles">Cyber Particles</option>
+        <option value="glitch">Glitch Flicker</option>
+      </select>
+      <label><input type="checkbox" id="asciiToggle" onchange="toggleAsciiRain()" /> ASCII Rain</label>
+      <label><input type="checkbox" id="gridToggle" onchange="toggleNeonGrid()" /> Neon Grid</label>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="particles-config.js"></script>
+  <script src="script.js"></script>
+  <script>
+    function scrollToModule(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+</body>
+</html>
